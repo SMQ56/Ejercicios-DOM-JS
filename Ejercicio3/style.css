@@ -1,0 +1,84 @@
+body {
+  background-color: #16161a;
+  color: #fffffe;
+  font-family: "Segoe UI", sans-serif;
+  padding: 20px;
+}
+
+/* divCountries */
+#countries-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+/* Tarjeta de cada país */
+
+#countries-container > div {
+  width: 300px;
+  background-color: #01010176;
+  border-radius: 12px;
+  border: 4px solid #7f5af0a6;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.4s ease;
+}
+
+#countries-container > div:hover {
+  transform: translateY(-8px);
+  border: 4px solid #2cb67d;
+}
+
+/* Título */
+#countries-container h4 {
+  margin: 10px 4px;
+  font-size: 18px;
+  color: #fffffe;
+}
+
+/* Imagen */
+#countries-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Botones */
+#countries-container button,
+button {
+  background-color: #7f5af096;
+  color: #fffffe;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 10px;
+}
+
+#countries-container button:hover,
+button:hover {
+  background-color: #2cb67d;
+  color: #16161a;
+}
+
+/* Countries / Cars */
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  color: #72757e;
+}
+ul:hover {
+  color: #fffffe;
+}
+ul > li:hover {
+  color: #2cb67d;
+}
