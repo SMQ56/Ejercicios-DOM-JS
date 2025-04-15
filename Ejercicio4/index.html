@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+    <style>
+        /* Estilo general del body */
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #16161a;
+            color: #fffffe;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 40px;
+        }
+
+        /* Botón principal */
+        #btnToClick {
+            background-color: #7f5af0;
+            color: #fffffe;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        #btnToClick:hover {
+            background-color: #2cb67d;
+        }
+        /* --------- */
+        input[type="text"] {
+            width: 250px;
+            padding: 10px 12px;
+            border: 4px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.2s ease;
+        }
+
+        /* Efecto al hacer focus */
+        input[type="text"]:focus {
+            border-color: #7f5af0;
+            outline: none;
+        }
+        /* ---------- */
+        input.click {
+            border-left: 8px solid #8bd3dd;
+        }
+
+        input.focus {
+            border-left: 8px solid #e16162;
+        }
+
+        input.value {
+            border-left: 8px solid #f9bc60;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btnToClick">Click</button>
+    <input class="click" type="text" />
+    <input class="focus" type="text" />
+    <input class="value" type="text" />
+</body>
+
+</html>
