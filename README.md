@@ -19,4 +19,4 @@ Este es un proyecto de una tienda de videojuegos interactiva, desarrollada como 
 
 ## 🧑‍💻 Autor
 
-Desarrollado por **Sufyan** — [GitHub](https://github.com/tuusuario)
+Desarrollado por **Sufyan** — [GitHub]([https://github.com/tuusuario](https://github.com/SMQ56))
